@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Geonames Project</title>
+	<meta http-equiv="Cache-control" content="max-age=60">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Aaron Spiller">
+	<link rel="stylesheet" href="libs/style.css">
+</head>
+<body>
+
+<table border='1'>
+  <tr>
+    <th>API name</th>
+	<th>API description</th>
+	<th></th>
+  </tr>
+  <tr>
+    <td id='countryName'>1. CountryCodes</td>
+	<td>lets the user see country name, country code and languages spoken in Austria</td>
+	<td><button id='num1'>submit</button></td>
+  </tr>
+  <tr>
+    <td id='wiki'>2. Wikipedia Search</td>
+	<td>provides info on London</td>
+	<td><button id='num2'>submit</button></td>
+  </tr>
+  <tr>
+    <td id='earth'>3. Earthquakes</td>
+	<td>Provides data for a big Quake</td>
+	<td><button id='num3'>submit</button></td>
+  </tr>
+  <tr>
+    <td colspan='3'>
+	  <div>Country Name:   <span id='results1'></span></div>
+	  <div>Country Code:   <span id='results2'></span></div>
+	  <div>Languages:   <span id='results3'></span></div>
+	</td>
+  </tr>
+  <tr>
+    <td colspan='3'>
+	<div>info:  <span id='wikiresult'></span></div>
+	</td>
+  </tr>
+  <tr>
+    <td colspan='3'>
+	  <div>Date of Quake:  <span id='quakeresult'></span></div>
+	  <div>Magnitude:  <span id='quakeresult1'></span></div>
+	  <div>Depth:  <span id='quakeresult2'></span></div>
+	</td>
+  </tr>
+  
+</table>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="libs/script.js"></script>
+</body>
+</html>

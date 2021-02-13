@@ -1,0 +1,17 @@
+
+table, td, tr {
+  border-collapse: collapse;
+  text-align: center;
+}
+table {
+	
+	width: 100%;
+	height: 700px;
+}
+button {
+	background-color: lightblue;
+}
+button:hover {
+	background-color: blue;
+	color: white;
+}
